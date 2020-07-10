@@ -1,0 +1,46 @@
+SIConverter v1.2
+****************
+Version du 07/09/2018 (Voir l'historique à la fin du fichier).
+
+
+DESCRIPTION :
+=============
+SIConverter.bat (Simple Image Converter) est un utilitaire permettant
+la modification rapide d'une ou plusieurs images par simple Glisser/Déposer.
+SIConverter.bat nécessite l'utilisation de l'utilitaire nconvert.exe de Xnview (http://www.xnview.com).
+
+
+INSTALLATION et DESINSTALLATION :
+=================================
+Lancez Setup.cmd et suivez les instructions.
+Vous pouvez éditez le fichier Setup.ini pour modifier les options d'installation.
+
+
+UTILISATION :
+=============
+Lancez le SIConverter, puis choisisez l'action à réaliser.
+
+
+
+LICENCE :
+=========
+Ce batch est diffusé sous licence GPL. Cela signifie que vous pouvez l’utiliser, le modifier ou
+le redistribuer comme bon vous semble, du moment que le copyright et la mention d’auteur restent tels quels.
+Lisez attentivement la licence GPL pour plus de détails (https://fr.wikipedia.org/wiki/Licence_publique_générale_GNU).
+
+
+
+HISTORIQUE :
+============
+07/09/2018 - Version 1.2 - SIConverter.cmd et Setup.cmd
+	- Modification du système d'installation. Setup.cmd utilise maintenant un fichier de configuration .ini.
+	- Ajout du caractère ÿ pour créer un espace qui ne sera pas supprimé à l'édition du batch.
+	- SIConverter.cmd est renommé en SIConverter.bat
+
+02/09/2018 - Version 1.1 - SIConverter.cmd
+	- Ajout du fichier LisezMoi.txt.
+	- Ajout du numéro de version + affichage de la version dans le titre.
+	- Ajout d'une option pour convertir en Jpg + réduction 50%
+
+30/08/2018 - Version 1.0 - SIConverter.cmd
+	- Première version.

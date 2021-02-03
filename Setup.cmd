@@ -198,8 +198,7 @@ For /F "usebackq Tokens=1,2 Delims==" %%a In ("%SetupIni%") Do (
 	If /I %%a==AppName Set AppName=%%b
 	If /I %%a==Version Set Version=%%b
 	If /I %%a==InstallDir Set InstallDir=%%b
-	If /I %%a==LinkTarget1 Set LinkTarget1=%%b
-	If /I %%a==LinkTarget2 Set LinkTarget2=%%b
+	If /I %%a==LinkTarget Set LinkTarget=%%b
 	If /I %%a==LinkName Set LinkName=%%b
 	If /I %%a==Admin Set Admin=%%b
 	If /I %%a==LinkDesktop Set LinkDesktop=%%b
@@ -211,7 +210,7 @@ For /F "usebackq Tokens=1,2 Delims==" %%a In ("%SetupIni%") Do (
 
 :TestIniConfig
 If "%InstallDir%"=="" Call :ErrorMsg & Echo InstallDir n'est pas renseign‚ !!! & Call :Exit
-If "%LinkTarget1%"=="" Call :ErrorMsg & Echo LinkTarget1 n'est pas renseign‚ !!! & Call :Exit
+If "%LinkTarget%"=="" Call :ErrorMsg & Echo LinkTarget n'est pas renseign‚ !!! & Call :Exit
 If "%LinkName%"=="" Call :ErrorMsg & Echo LinkName n'est pas renseign‚ !!! & Call :Exit
 
 If "%Version%"=="" Set Version=0.0
@@ -239,13 +238,8 @@ If Not Exist "%InstallDir%" (
 	)
 )
 
-:: Test si LinkTarget1 existe
-If Not Exist "%~DP0%LinkTarget1%" Call :ErrorMsg & Echo Programme %LinkTarget1% non trouv‚ !!! & Call :Exit
-
-:: Test si LinkTarget2 existe (si renseigné)
-If "%LinkTarget2%" NEQ "" (
-	If Not Exist "%~DP0%LinkTarget2%" Call :ErrorMsg & Echo Programme %LinkTarget2% non trouv‚ !!! & Call :Exit
-)
+:: Test si LinkTarget existe
+If Not Exist "%~DP0%LinkTarget%" Call :ErrorMsg & Echo Programme %LinkTarget% non trouv‚ !!! & Call :Exit
 
 
 :: Récupération du chemin du bureau de l'utilisateur

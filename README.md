@@ -1,6 +1,6 @@
 # SIConverter.cmd 
 
-Version 1.3 du 03/02/2020 - Par Tlem33  
+Version 1.4 du 13/05/2021 - Par Tlem33  
 https://github.com/Tlem33/SIConverter
 
 ***
@@ -99,3 +99,8 @@ INDIRECT AVEC L’UTILISATION DE CE LOGICIEL.
 		- Modification du chemin d'installation dans le Setup (C:\Utilitaires).
 		- Ajout du fichier Nconvert.txt avec la liste des commandes de Nconvert.exe.
 
+
+13/05/2021 - Version 1.4
+
+		- Modification des entêtes des batch.
+		- Setup.cmd renommé en SIConverter-Setup.cmd.

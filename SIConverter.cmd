@@ -1,14 +1,16 @@
-:: SIConverter.cmd - Créer par Tlem
+:: SIConverter.cmd - Par Tlem33
 :: Simple Image Converter et un programme de conversion d'image simplifié,
 :: Utilisant l'exécutable Nconvert.exe de chez XNview (http://www.xnview.com).
 ::
-:: Version 1.3 du 03/02/2021
-:: Voir la section Historique du fichier LisezMoi.txt pour plus d'informations.
+:: Lire le fichier README.md pour plus d'informations.
+::
+:: Version 1.4 du 13/05/2021
+:: https://github.com/Tlem33/SIConverter
 ::
 
 @Echo Off
 Cls
-Set Version=1.3
+Set Version=1.4
 
 
 :: Attribution du nom du répertoire pour le dossier de sortie.

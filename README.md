@@ -3,7 +3,7 @@
 Version 1.4 du 13/05/2021 - Par Tlem33  
 https://github.com/Tlem33/SIConverter
 
-***
+---
 
 ## DESCRIPTION :
 
@@ -11,12 +11,14 @@ SIConverter.cmd (Simple Image Converter) est un utilitaire permettant
 la modification rapide d'une ou plusieurs images par simple Glisser/Déposer.  
 SIConverter.cmd nécessite l'utilisation de l'utilitaire nconvert.exe (https://www.xnview.com/fr/nconvert/).
 
+---
 
 ## INSTALLATION :
 
 Lancez Setup.cmd et suivez les instructions.  
 Vous pouvez éditez le fichier Setup.ini pour modifier les options d'installation.
 
+---
 
 ## UTILISATION :
 
@@ -31,17 +33,15 @@ Faites glisser un ou plusieurs fichiers sur le programme, puis choisisez l'actio
 		7 - Rotation 90°  
 		8 - Quitter  
 
-***
+---
 
 ## SYSTEME(S) :
 
-Testé sous :
+     Windows 7
+     Windows 8
+     Windows 10
 
-            - Windows 7
-            - Windows 8
-            - Windows 10
-
-***
+--
 
 ## LICENCE :
 
@@ -104,3 +104,5 @@ INDIRECT AVEC L’UTILISATION DE CE LOGICIEL.
 
 		- Modification des entêtes des batch.
 		- Setup.cmd renommé en SIConverter-Setup.cmd.
+
+---
